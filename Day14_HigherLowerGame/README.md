@@ -17,7 +17,7 @@ Welcome to the Higher or Lower Game! This Python project is a fun and interactiv
    - Type `'A'` if you think Person A has more followers.
    - Type `'B'` if you think Person B has more followers.
 3. The program reveals whether your guess is correct:
-   - If correct, your score increases, and Person B becomes the new Person A.
+   - If correct, your score increases, and the program shows details for the next 2 people.
    - If incorrect, the game ends, and your final score is displayed.
 
 ### End of Game:
