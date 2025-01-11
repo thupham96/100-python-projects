@@ -7,8 +7,8 @@ Welcome to the Higher or Lower Game! This Python project is a fun and interactiv
 ### Game Setup:
 
 - The program provides data for multiple famous individuals, each with their social media follower counts.
-- It displays the name, profession, and description of two individuals (Person A and Person B).
-- Your task is to determine if Person B has a higher or lower follower count compared to Person A.
+- It displays the name, profession, and country of origin of two individuals (Person A and Person B).
+- Your task is to determine if Person A has a higher or lower follower count compared to Person B.
 
 ### Gameplay:
 
