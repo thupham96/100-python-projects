@@ -104,13 +104,12 @@ And much, much more as the projects progress!
 
 ## Project Progress
 
-| Day | Project Name             | Description                | Status |
-|-----|--------------------------|----------------------------|--------|
-| 1   | Example Project          | A basic Python script.     | Done   |
-| 2   | TBD                      | TBD                        | TBD    |
-| 11  | Blackjack Game           | A classic card game.       | Done   |
-| 12  | Number Guessing Game     | A fun number guessing game.| Done   |
-| ... | ...                      | ...                        | ...    |
+| Day | Project Name             | Description                                  | Status |
+|-----|--------------------------|----------------------------------------------|--------|
+| 11  | Blackjack Game           | A classic card game.                         | Done   |
+| 12  | Number Guessing Game     | A fun number guessing game.                  | Done   |
+| 14  | Higher or Lower Game     | A comparison game of social media followings.| Done   |
+| ... | ...                      | ...                                          | ...    |
 
 Progress updates will be committed daily.
 
