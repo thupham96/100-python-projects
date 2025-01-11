@@ -28,7 +28,6 @@ Welcome to the Higher or Lower Game! This Python project is a fun and interactiv
 ## Features
 
 - **Fascinating Comparisons**: Learn fun facts about popular individuals and their professions.
-- **Score Tracking**: Compete with yourself by trying to beat your previous high score.
 - **Simple Interface**: Input-based interaction ensures smooth gameplay.
 
 ## How to Play
@@ -50,20 +49,20 @@ Welcome to the Higher or Lower Game! This Python project is a fun and interactiv
 
 ```plaintext
 Welcome to the Higher or Lower Game!
-Compare A: Taylor Swift, a Singer, with 261M followers.
-Against B: Elon Musk, an Entrepreneur, with 174M followers.
-Who has more followers? Type 'higher' or 'lower': higher
+Compare A: David Beckham, a Footballer, from United Kingdom.
+Against B: Gigi Hadid, a Model, from United States.
+Who has more followers? Type 'A' or 'B': A
 You're right! Current score: 1.
 
-Compare A: Elon Musk, an Entrepreneur, with 174M followers.
-Against B: Cristiano Ronaldo, a Footballer, with 350M followers.
-Who has more followers? Type 'higher' or 'lower': higher
-You're right! Current score: 2.
+Compare A: Cardi B, a Musician, from United States.
+Against B: FC Barcelona, a Football club, from Spain.
+Who has more followers? Type 'A' or 'B': B
+You're right. Current score: 2.
 
-Compare A: Cristiano Ronaldo, a Footballer, with 350M followers.
-Against B: Billie Eilish, a Singer, with 106M followers.
-Who has more followers? Type 'higher' or 'lower': lower
-Oops! That's wrong. Final score: 2.
+Compare A: Cardi B, a Musician, from United States.
+Against B: Taylor Swift, a Musician, from United States.
+Who has more followers? Type 'A' or 'B': A
+Sorry, that's wrong. Final score: 2.
 ```
 
 ## Technologies Used
