@@ -60,7 +60,7 @@ Welcome to the Coffee Machine project! This Python program simulates a real-worl
 
 1. Clone the repository and navigate to the `Day15_CoffeeMachine` folder:  
    ```bash
-   git clone https://github.com/yourusername/100-python-projects.git
+   git clone https://github.com/thupham96/100-python-projects.git
    cd 100-python-projects/Day15_CoffeeMachine
    ```
 
