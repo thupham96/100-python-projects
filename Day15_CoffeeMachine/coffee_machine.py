@@ -1,4 +1,3 @@
-```python
 # Define the menu for the coffee machine with the required ingredients and costs
 MENU = {
     "espresso": {
@@ -99,4 +98,3 @@ while continue_running:
         # Handle invalid input
         print("You have chosen an invalid option. Please choose again.")
     print("\n\n")  # Print a newline for better readability between interactions
-```
