@@ -110,6 +110,8 @@ And much, much more as the projects progress!
 | 12  | Number Guessing Game     | A fun number guessing game.                                                                | Done   |
 | 14  | Higher or Lower Game     | A comparison game of social media followings.                                              | Done   |
 | 15  | Coffee Machine           | A simulation of a coffee vending machine with resource management and transaction handling.| Done   |
+| 16  | Coffee Machine - OOP     | A simulation of a coffee vending machine with resource management and transaction handling,| Done   |
+|     |                          | enhanced with OOP.                                                                         |        |
 | ... | ...                      | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
