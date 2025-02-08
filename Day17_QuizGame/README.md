@@ -19,12 +19,12 @@ Welcome to the Quiz Game project! This Python program implements a **True/False 
 
 1. **Classes and Responsibilities**:
    - **`Question`**: Represents a single quiz question, storing its text and correct answer.
-   - **`QuestionBank`**: Manages a list of questions and provides a mechanism to retrieve them.
    - **`QuizBrain`**: Controls the game flow, tracking progress, asking questions, and checking answers.
+   - **`UserInterface`**: Handles user interactions, displaying questions, accepting input, and showing scores.
 
 2. **Encapsulation**:
    - The quiz logic is encapsulated within the `QuizBrain` class, ensuring a clear separation of concerns.
-   - The `QuestionBank` class manages question storage, keeping data handling separate from game logic.
+   - The questions are stored separately in a `data.py` file.
 
 3. **Reusability**:
    - Additional question formats or difficulty levels can be introduced without modifying the core game logic.
@@ -52,8 +52,8 @@ Welcome to the Quiz Game project! This Python program implements a **True/False 
 
 ### Key Features:
 
-1. **Dynamic Question Handling**:
-   - The game supports an extendable list of questions, making it adaptable to different topics.
+1. **Static Question Handling**:
+   - The game loads an extendable list of questions from `data.py`, making it adaptable to different topics.
 
 2. **Score Tracking**:
    - Users receive real-time feedback and see their total score after each response.
@@ -68,18 +68,20 @@ Welcome to the Quiz Game project! This Python program implements a **True/False 
 
 ## How to Run
 
-1. Clone the repository and navigate to the `Day17_QuizGame` folder:
+1. Clone the repository and navigate to the `Day17_QuizGame_OOP` folder:
    ```bash
    git clone https://github.com/thupham96/100-python-projects.git
    cd 100-python-projects/Day17_QuizGame
    ```
 
-2. Run the program:
+2. Ensure `data.py` is present in the same directory, as it contains the quiz questions.
+
+3. Run the program:
    ```bash
    python quiz_game.py
    ```
 
-3. Follow the on-screen prompts to answer questions and track your score.
+4. Follow the on-screen prompts to answer questions and track your score.
 
 ---
 
@@ -107,6 +109,7 @@ Your current score is: 1/3.
 
 You have completed the quiz!
 You final score is 1/3.
+Thanks for playing!
 ```
 
 ---
@@ -129,5 +132,3 @@ You final score is 1/3.
 - Managing game flow with an encapsulated class-based approach.
 
 Enjoy playing the Quiz Game and feel free to customize it with your own questions! 🎉
-
-
