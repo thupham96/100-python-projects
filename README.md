@@ -112,6 +112,7 @@ And much, much more as the projects progress!
 | 15  | Coffee Machine           | A simulation of a coffee vending machine with resource management and transaction handling.| Done   |
 | 16  | Coffee Machine - OOP     | A simulation of a coffee vending machine with resource management and transaction handling, enhanced with OOP principles. | Done   |
 | 17  | Quiz Game                | A True/False quiz game with score tracking, built using OOP principles.                    | Done   |
+| 18  | Grid Painting            | A 10x10 dot painting using the Turtle graphics package, with color palette inspired by Damien Hirst.| Done   |
 | ... | ...                      | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
