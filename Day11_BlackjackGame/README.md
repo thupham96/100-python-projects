@@ -2,6 +2,8 @@
 
 Welcome to the Blackjack Game! This project recreates the classic card game of Blackjack, where your goal is to get as close to 21 as possible without going over. You will compete against the computer, which acts as the dealer.
 
+[Click here to play the demo](https://trinket.io/python3/cd9b9a08145c?outputOnly=true)
+
 ## House Rules
 
 1. **Deck Configuration**:
@@ -71,7 +73,7 @@ Computer went over 21. You win!
 
 1. Clone the repository and navigate to the `Day11_BlackjackGame` folder:
    ```bash
-   git clone https://github.com/yourusername/100-python-projects.git
+   git clone https://github.com/thupham96/100-python-projects.git
    cd 100-python-projects/Day11_BlackjackGame
    ```
 
@@ -94,3 +96,4 @@ Computer went over 21. You win!
 - Using conditional logic to determine game outcomes and handle edge cases.
 
 Enjoy the Blackjack Game and see how lucky you can get! 🎲🃏
+
