@@ -92,8 +92,8 @@ Welcome to the Turtle Race Game project! This Python program simulates an exciti
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo/Day19_TurtleRaceGame
+   git clone https://github.com/thupham96/100-python-projects.git
+   cd 100-python-projects/Day19_TurtleRaceGame
    ```
 
 2. **Run the Program**:
