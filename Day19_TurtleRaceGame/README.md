@@ -1,4 +1,4 @@
-**Day 19: Turtle Race Game**
+# Day 19: Turtle Race Game**
 
 Welcome to the **Turtle Race Game** project! This Python program uses Turtle graphics to simulate an exciting turtle race. With interactive elements like a countdown, a betting system, and a rematch option, it offers an engaging way to learn about GUI interactions, user input handling, and game loops.
 
