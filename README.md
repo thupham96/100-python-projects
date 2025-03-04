@@ -116,6 +116,7 @@ And much, much more as the projects progress!
 | 19  | Turtle Race Game         | An interactive turtle race game where players bet on the winning color as colorful turtles compete in a fast-paced race using Python's Turtle graphics.| Done   |
 | 20  | Snake Game with Obstacles| A modernized Snake game with food, increasing difficulty, and obstacles that challenge the player's navigation skills.| Done   |
 | 22  | Pong Game with AI & Multiplayer| A Pong game featuring AI-controlled paddle for Single Player mode, and a Two-Player mode option.| Done   |
+| 23  | Turtle Crossing Game           | A game where a turtle avoids moving cars, collects power-ups, and progresses through increasing difficulty levels. | Done   |
 | ... | ...                      | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
