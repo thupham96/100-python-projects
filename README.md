@@ -106,6 +106,7 @@ And much, much more as the projects progress!
 
 | Day | Project Name             | Description                                                                                | Status |
 |-----|--------------------------|--------------------------------------------------------------------------------------------|--------|
+| 1   | Band Name Generator      | A fun band name generator.                                                                 | Done   |
 | 11  | Blackjack Game           | A classic card game.                                                                       | Done   |
 | 12  | Number Guessing Game     | A fun number guessing game.                                                                | Done   |
 | 14  | Higher or Lower Game     | A comparison game of social media followings.                                              | Done   |
