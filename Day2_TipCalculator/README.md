@@ -2,6 +2,8 @@
 
 Welcome to the Tip Calculator! This interactive tool helps you easily calculate and split restaurant bills, including custom tips. Quickly determine how much each person should pay, whether splitting evenly or individually based on contributions.
 
+Click here to play the demo
+
 ## How It Works
 
 ### Step-by-Step Guide:
