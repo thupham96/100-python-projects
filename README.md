@@ -107,6 +107,7 @@ And much, much more as the projects progress!
 | Day | Project Name             | Description                                                                                | Status |
 |-----|--------------------------|--------------------------------------------------------------------------------------------|--------|
 | 1   | Band Name Generator      | A fun band name generator.                                                                 | Done   |
+| 2   | Tip Calculator           | An interactive tool to calculate and split restaurant bills, including customizable tip amounts.| Done   |
 | 11  | Blackjack Game           | A classic card game.                                                                       | Done   |
 | 12  | Number Guessing Game     | A fun number guessing game.                                                                | Done   |
 | 14  | Higher or Lower Game     | A comparison game of social media followings.                                              | Done   |
@@ -118,6 +119,7 @@ And much, much more as the projects progress!
 | 20 & 21  | Snake Game with Obstacles| A modernized Snake game with food, increasing difficulty, and obstacles that challenge the player's navigation skills.| Done   |
 | 22  | Pong Game with AI & Multiplayer| A Pong game featuring AI-controlled paddle for Single Player mode, and a Two-Player mode option.| Done   |
 | 23  | Turtle Crossing Game           | A game where a turtle avoids moving cars, collects power-ups, and progresses through increasing difficulty levels. | Done   |
+| 25  | Personalized Letter Generator  | Generates personalized event invitation letters using template placeholders for custom details.| Done   |
 | ... | ...                      | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
