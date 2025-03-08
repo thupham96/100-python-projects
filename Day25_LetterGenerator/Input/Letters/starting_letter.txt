@@ -1,0 +1,7 @@
+Dear [name],
+
+You are invited to [event_name] on [event_date] at [event_location].
+
+Hope you can make it!
+
+Thu
