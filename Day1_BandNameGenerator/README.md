@@ -2,6 +2,8 @@
 
 Welcome to the Band Name Generator! This project is a fun way to create unique band names based on user inputs, such as the city they grew up in, their pet’s name, and their preferred music genre.
 
+[Click here to play the demo](https://trinket.io/python3/b19a1b9d7cea?outputOnly=true)
+
 ## How It Works
 
 1. The program asks for the user’s city of origin.
