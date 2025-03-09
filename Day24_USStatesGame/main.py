@@ -87,7 +87,9 @@ while game_is_on:
                 writer.goto(x_cor, y_cor)
                 writer.write(state_data["state"], align="center", font=("Arial", 10, "normal"))
         screen.title("Game Over! Here are the states you missed.")
-        game_is_on = False
+        if os.path.exists("guessed_states.csv"):
+            os.remove("guessed_states.csv")
+        break
 
     # Check for game completion
     if len(guessed_states) == 50:
