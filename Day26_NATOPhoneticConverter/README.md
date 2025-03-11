@@ -2,6 +2,8 @@
 
 Welcome to the NATO Phonetic Alphabet Converter! This interactive tool allows you to convert any word into its phonetic alphabet equivalent. Additionally, you can customize the phonetic words for each letter to personalize your experience.
 
+[Click here to play the demo](https://trinket.io/python3/bb713b532c28?outputOnly=true)
+
 ## How It Works
 
 1. The program loads the NATO phonetic alphabet from a CSV file.
