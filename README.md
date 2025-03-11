@@ -122,6 +122,7 @@ And much, much more as the projects progress!
 | 23  | Turtle Crossing Game           | A game where a turtle avoids moving cars, collects power-ups, and progresses through increasing difficulty levels. | Done   |
 | 24  | US States Game           | A geographical quiz game to identify U.S. states using Turtle graphics and Pandas.| Done   |
 | 25  | Personalized Letter Generator  | Generates personalized event invitation letters using template placeholders for custom details.| Done   |
+| 26  | NATO Phonetic Alphabet Converter | Converts words into the NATO phonetic alphabet with customization options.| Done   |
 | ... | ...                      | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
