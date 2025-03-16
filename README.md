@@ -124,6 +124,7 @@ And much, much more as the projects progress!
 | 24  | US States Game                     | Interactive quiz to identify US states, demonstrating use of CSV data.                      | Done   |
 | 26  | NATO Phonetic Alphabet Converter   | Converts words into the NATO phonetic alphabet with customization options.                 | Done   |
 | 27  | Miles to Kilometers Converter      | GUI-based app converting miles to kilometers, with robust input validation and clipboard functionality.| Done   |
+| 28  | Pomodoro Timer                     | GUI application implementing Pomodoro Technique with timer, pause, and reset functionalities.| Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Let me know if you'd like to add or update more projects!
