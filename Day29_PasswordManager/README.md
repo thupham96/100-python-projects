@@ -1,4 +1,4 @@
-# Day 29: Password Manager (Enhanced Version)
+# Day 29: Password Manager
 
 Welcome to the **Password Manager**! This secure and user-friendly application helps you store, generate, search, and manage passwords efficiently. It features an intuitive graphical interface built with Tkinter.
 
