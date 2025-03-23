@@ -108,7 +108,7 @@ And much, much more as the projects progress!
 |-----|------------------------------------|--------------------------------------------------------------------------------------------|--------|
 | 1   | Band Name Generator                | A fun band name generator.                                                                 | Done   |
 | 2   | Tip Calculator                     | An interactive tool to calculate and split restaurant bills, including customizable tip amounts.| Done   |
-| 3   | Treasure Quest                     | A text-based adventure game where players make decisions to find hidden treasure.| Done   |
+| 3   | Treasure Quest                     | A text-based adventure game where players make decisions to find hidden treasure.          | Done   |
 | 11  | Blackjack Game                     | A classic card game.                                                                       | Done   |
 | 12  | Number Guessing Game               | A fun number guessing game.                                                                | Done   |
 | 14  | Higher or Lower Game               | A comparison game of social media followings.                                              | Done   |
@@ -117,14 +117,16 @@ And much, much more as the projects progress!
 | 17  | Quiz Game                          | A quiz application that utilizes object-oriented programming for structured questions.     | Done   |
 | 18  | Grid Painting                      | A 10x10 dot painting using the Turtle graphics package, with color palette inspired by Damien Hirst.| Done   |
 | 19  | Turtle Race Game                   | An interactive turtle race game where players bet on the winning color as colorful turtles race.| Done   |
-| 20 & 21  | Snake Game                         | Classic snake game with basic gameplay implementation using Turtle graphics.               | Done   |
+| 20 & 21  | Snake Game                    | Classic snake game with basic gameplay implementation using Turtle graphics.               | Done   |
 | 22  | Pong Game                          | A classic Pong game implementation using Turtle graphics.                                  | Done   |
 | 23  | Turtle Crossing Game               | A game where a turtle avoids moving cars, collects power-ups, and progresses through increasing difficulty.| Done   |
 | 24  | US States Game                     | Interactive quiz to identify US states, demonstrating use of CSV data.                      | Done   |
 | 26  | NATO Phonetic Alphabet Converter   | Converts words into the NATO phonetic alphabet with customization options.                 | Done   |
 | 27  | Miles to Kilometers Converter      | GUI-based app converting miles to kilometers, with robust input validation and clipboard functionality.| Done   |
 | 28  | Pomodoro Timer                     | GUI application implementing Pomodoro Technique with timer, pause, and reset functionalities.| Done   |
-| 29 & 30  | Password Manager                   | GUI-based password manager with password generation, saving, searching, deleting, and clipboard copying.| Done   |
+| 29  | Password Manager                   | GUI-based password manager with password generation, saving, searching, deleting, and clipboard copying.| Done   |
+| 30  | Password Manager with JSON         | GUI-based password manager using JSON for structured storage and enhanced CRUD operations. | Done   |
+| 31  | Flash Card App                     | GUI application for language learning using flashcards with persistent progress tracking.  | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Let me know if you'd like to add or update more projects!
