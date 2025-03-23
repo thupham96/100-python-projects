@@ -1,0 +1,6 @@
+{
+    "Google": {
+        "email": "user@example.com",
+        "password": "Bw!(Wx(u0C2Ny0P0"
+    }
+}
