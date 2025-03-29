@@ -109,6 +109,7 @@ And much, much more as the projects progress!
 | 1   | Band Name Generator                | A fun band name generator.                                                                 | Done   |
 | 2   | Tip Calculator                     | An interactive tool to calculate and split restaurant bills, including customizable tip amounts.| Done   |
 | 3   | Treasure Quest                     | A text-based adventure game where players make decisions to find hidden treasure.          | Done   |
+| 4   | Rock Paper Scissors Game           | A console-based game featuring Rock, Paper, Scissors with ASCII art, round tracking, and scorekeeping.| Done   |
 | 11  | Blackjack Game                     | A classic card game.                                                                       | Done   |
 | 12  | Number Guessing Game               | A fun number guessing game.                                                                | Done   |
 | 14  | Higher or Lower Game               | A comparison game of social media followings.                                              | Done   |
