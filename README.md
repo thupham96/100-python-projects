@@ -127,6 +127,8 @@ And much, much more as the projects progress!
 | 29  | Password Manager                   | GUI-based password manager with password generation, saving, searching, deleting, and clipboard copying.| Done   |
 | 30  | Password Manager with JSON         | GUI-based password manager using JSON for structured storage and enhanced CRUD operations. | Done   |
 | 31  | Flash Card App                     | GUI application for language learning using flashcards with persistent progress tracking.  | Done   |
+| 32  | Birthday Wisher App                | Sends automated birthday emails using data from CSV and randomly chosen personalized templates.| Done   |
+| 33  | ISS Overhead Notifier              | Sends email alerts when the ISS is overhead and it's nighttime, using public APIs and location data.| Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Let me know if you'd like to add or update more projects!
