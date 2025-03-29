@@ -35,7 +35,7 @@ Welcome to the **Birthday Wisher App**! This Python automation project checks fo
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/your_username/python-projects.git
+   git clone https://github.com/thupham96/python-projects.git
    cd Day32_BirthdayWisherApp
    ```
 
