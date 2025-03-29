@@ -26,7 +26,7 @@ current_card = {}
 flip_timer = None
 is_vietnamese = True
 
-# Function to flip the card after 3 seconds
+# Function to flip the card
 def flip_card():
     global is_vietnamese
     if is_vietnamese:
@@ -43,10 +43,12 @@ def flip_card():
 # Generate a new card and reset flip timer
 def generate_new_card():
     global current_card
+    global is_vietnamese
     current_card = random.choice(data_dict)
     canvas.itemconfig(card_image, image=front_img)
     canvas.itemconfig(title_text, text="Vietnamese", fill="black")
     canvas.itemconfig(word_text, text=current_card["Vietnamese"], fill="black")
+    is_vietnamese = True
 
 # Remove known card
 def known_card():
@@ -95,6 +97,6 @@ flip_button.grid(column=2, row=1, pady=10)
 words_left_label = Label(window, text=f"Words Left: {len(data_dict)}", font=("Arial", 16), bg=BACKGROUND_COLOR)
 words_left_label.grid(column=0, row=2, columnspan=3, pady=10)
 
-generate_new_card()  # Initial flip timer
+generate_new_card()
 
 window.mainloop()
