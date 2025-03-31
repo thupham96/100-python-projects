@@ -133,8 +133,6 @@ And much, much more as the projects progress!
 | 34  | Quizzler                           | A GUI-based trivia quiz application using OOP, Tkinter, and Open Trivia Database API.        | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
-Let me know if you'd like to add or update more projects!
-
 Progress updates will be committed daily.
 
 ---
