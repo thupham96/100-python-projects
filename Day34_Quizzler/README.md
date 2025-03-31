@@ -51,7 +51,7 @@ Welcome to **Quizzler** – a fun and interactive trivia quiz app built with Pyt
 
 3. Run the quiz:
    ```bash
-   python quizz.py
+   python quizzler.py
    ```
 
 ## Technologies Used
