@@ -130,6 +130,7 @@ And much, much more as the projects progress!
 | 31  | Flash Card App                     | GUI application for language learning using flashcards with persistent progress tracking.  | Done   |
 | 32  | Birthday Wisher App                | Sends automated birthday emails using data from CSV and randomly chosen personalized templates.| Done   |
 | 33  | ISS Overhead Notifier              | Sends email alerts when the ISS is overhead and it's nighttime, using public APIs and location data.| Done   |
+| 34  | Quizzler                           | A GUI-based trivia quiz application using OOP, Tkinter, and Open Trivia Database API.        | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Let me know if you'd like to add or update more projects!
