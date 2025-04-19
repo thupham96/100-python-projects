@@ -131,6 +131,7 @@ And much, much more as the projects progress!
 | 32  | Birthday Wisher App                | Sends automated birthday emails using data from CSV and randomly chosen personalized templates.| Done   |
 | 33  | ISS Overhead Notifier              | Sends email alerts when the ISS is overhead and it's nighttime, using public APIs and location data.| Done   |
 | 34  | Quizzler                           | A GUI-based trivia quiz application using OOP, Tkinter, and Open Trivia Database API.        | Done   |
+| 35  | Weather Alert                      | Sends real-time weather summary via WhatsApp using OpenWeatherMap and Twilio APIs.           | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
