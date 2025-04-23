@@ -132,6 +132,7 @@ And much, much more as the projects progress!
 | 33  | ISS Overhead Notifier              | Sends email alerts when the ISS is overhead and it's nighttime, using public APIs and location data.| Done   |
 | 34  | Quizzler                           | A GUI-based trivia quiz application using OOP, Tkinter, and Open Trivia Database API.        | Done   |
 | 35  | Weather Alert                      | Sends real-time weather summary via WhatsApp using OpenWeatherMap and Twilio APIs.           | Done   |
+| 36  | Stock Alert                        | Tracks daily stock price changes and sends news alerts via WhatsApp using Alpha Vantage and NewsAPI.| Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
