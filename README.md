@@ -134,6 +134,7 @@ And much, much more as the projects progress!
 | 35  | Weather Alert                      | Sends real-time weather summary via WhatsApp using OpenWeatherMap and Twilio APIs.           | Done   |
 | 36  | Stock Alert                        | Tracks daily stock price changes and sends news alerts via WhatsApp using Alpha Vantage and NewsAPI.| Done   |
 | 37  | Cycling Tracker                    | Logs daily cycling distances and retrieves today's record using the Pixela API.              | Done   |
+| 38  | Exercise Logger                    | Parses natural language workout input, logs to Google Sheets via Sheety, and tracks fitness goals. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
