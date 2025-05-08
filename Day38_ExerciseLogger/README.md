@@ -33,7 +33,7 @@ Total Duration: 35.0 min / 30 min
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/thupham96/python-projects.git
+   git clone https://github.com/thupham96/100-python-projects.git
    cd Day38_ExerciseLogger
    ```
 
