@@ -1,6 +1,6 @@
-# 100 Python Projects in 100 Days
+# 100 Python Projects
 
-Welcome to the **100 Python Projects in 100 Days** challenge! This repository is a personal journey where I will create one Python project each day, gradually increasing in complexity. The aim is to explore a wide array of Python applications, enhance my skills, and share knowledge with the community. 
+Welcome to the 100 Python Projects challenge! This repository documents my personal journey of building Python projects—from simple scripts to more advanced applications. The goal is to deepen my Python skills, explore diverse use cases, and share practical learning with the developer community.
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to the **100 Python Projects in 100 Days** challenge! This repository is
 
 ## About the Challenge
 
-The 100 Python Projects in 100 Days challenge is inspired by the concept of consistent learning and skill-building through daily practice. Each project will focus on a specific area of Python development, ranging from simple scripts to complex applications, ensuring a gradual learning curve.
+The 100 Python Project challenge is inspired by the concept of consistent learning and skill-building through daily practice. Each project will focus on a specific area of Python development, ranging from simple scripts to complex applications, ensuring a gradual learning curve.
 
 ---
 
