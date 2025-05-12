@@ -140,6 +140,8 @@ And much, much more as the projects progress!
 | 41  | Top 3 Movies Webpage               | Simple HTML page listing your favorite movies with descriptions.                             | Done   |
 | 42  | HTML Birthday Invitation           | Webpage with birthday details, checklist, countdown timer, and a map link.                   | Done   |
 | 43  | Spanish Vocabulary - Colors        | HTML & CSS page teaching Spanish color names with images and color styling.                  | Done   |
+| 44  | Funny Meme Webpage                 | Meme-style HTML page featuring a humorous image and caption with custom fonts and styling.   | Done   |
+| 45  | Top 100 Movies Web Scraper         | Python script to scrape and save Empire Online's Top 100 movies with release years.          | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
