@@ -143,6 +143,7 @@ And much, much more as the projects progress!
 | 44  | Funny Meme Webpage                 | Meme-style HTML page featuring a humorous image and caption with custom fonts and styling.   | Done   |
 | 45  | Top 100 Movies Web Scraper         | Python script to scrape and save Empire Online's Top 100 movies with release years.          | Done   |
 | 46  | Billboard to Spotify Playlist      | Python script that scrapes Billboard Hot 100 for a given date and builds a Spotify playlist. | Done   |
+| 47  | Amazon Price Tracker               | Python script that scrapes an Amazon product’s price and sends an email alert if it drops.   | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
