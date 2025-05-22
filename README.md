@@ -146,6 +146,7 @@ And much, much more as the projects progress!
 | 47  | Amazon Price Tracker               | Python script that scrapes an Amazon product’s price and sends an email alert if it drops.   | Done   |
 | 48  | Cookie Clicker Bot                 | Python bot that plays Cookie Clicker by auto-clicking and buying upgrades using Selenium.    | Done   |
 | 49  | Python Job Scraper → SimplyHired Listings Bot | Python script using Selenium to scrape Python Developer job listings from SimplyHired. | Done   |
+| 54  | Function Timer Decorator                  | Python script that benchmarks function execution time over multiple runs using a custom decorator. | Done   |
 | 55  | Flask Number Guessing Game         | A fun web app using Flask where users guess a number and receive feedback with GIFs.         | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
