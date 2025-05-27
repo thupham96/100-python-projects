@@ -148,6 +148,8 @@ And much, much more as the projects progress!
 | 49  | Python Job Scraper → SimplyHired Listings Bot | Python script using Selenium to scrape Python Developer job listings from SimplyHired. | Done   |
 | 54  | Function Timer Decorator                  | Python script that benchmarks function execution time over multiple runs using a custom decorator. | Done   |
 | 55  | Flask Number Guessing Game         | A fun web app using Flask where users guess a number and receive feedback with GIFs.         | Done   |
+| 56  | Wanderlust Adventures Webpage 🌍   | A responsive travel blog-style site built with Flask and HTML5 UP's Massively template.     | Done   |
+| 58  | TinDog Landing Page 🐶             | A Bootstrap-based HTML/CSS landing page for a fictional dog dating app with pricing, testimonials, and CTA buttons. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
