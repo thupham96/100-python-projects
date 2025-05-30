@@ -150,6 +150,7 @@ And much, much more as the projects progress!
 | 55  | Flask Number Guessing Game         | A fun web app using Flask where users guess a number and receive feedback with GIFs.         | Done   |
 | 56  | Wanderlust Adventures Webpage 🌍   | A responsive travel blog-style site built with Flask and HTML5 UP's Massively template.     | Done   |
 | 58  | TinDog Landing Page 🐶             | A Bootstrap-based HTML/CSS landing page for a fictional dog dating app with pricing, testimonials, and CTA buttons. | Done   |
+| 59  | Cosmic Chronicle Blog 🌌             | A Flask-powered blog site using Jinja templates, external JSON posts, and a Bootstrap 5 design.       | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
