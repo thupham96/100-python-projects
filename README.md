@@ -151,6 +151,7 @@ And much, much more as the projects progress!
 | 56  | Wanderlust Adventures Webpage 🌍   | A responsive travel blog-style site built with Flask and HTML5 UP's Massively template.     | Done   |
 | 58  | TinDog Landing Page 🐶             | A Bootstrap-based HTML/CSS landing page for a fictional dog dating app with pricing, testimonials, and CTA buttons. | Done   |
 | 59  | Cosmic Chronicle Blog 🌌             | A Flask-powered blog site using Jinja templates, external JSON posts, and a Bootstrap 5 design.       | Done   |
+| 60  | Clean Blog Flask Site ✨            | A clean and responsive Flask blog platform with modular templates, JSON-fed posts, and SMTP contact form. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
