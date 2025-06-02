@@ -152,6 +152,8 @@ And much, much more as the projects progress!
 | 58  | TinDog Landing Page 🐶             | A Bootstrap-based HTML/CSS landing page for a fictional dog dating app with pricing, testimonials, and CTA buttons. | Done   |
 | 59  | Cosmic Chronicle Blog 🌌             | A Flask-powered blog site using Jinja templates, external JSON posts, and a Bootstrap 5 design.       | Done   |
 | 60  | Clean Blog Flask Site ✨            | A clean and responsive Flask blog platform with modular templates, JSON-fed posts, and SMTP contact form. | Done   |
+| 61  | Secrets Login App 🔐              | A Flask app with a login form using Flask-WTF and Bootstrap, with conditional access and GIF feedback. | Done   |
+| 62  | Cafe & Wifi ☕📶                   | A Flask form-based web app for adding and listing cafes, stored in CSV, with Bootstrap layout. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
