@@ -154,6 +154,8 @@ And much, much more as the projects progress!
 | 60  | Clean Blog Flask Site ✨            | A clean and responsive Flask blog platform with modular templates, JSON-fed posts, and SMTP contact form. | Done   |
 | 61  | Secrets Login App 🔐              | A Flask app with a login form using Flask-WTF and Bootstrap, with conditional access and GIF feedback. | Done   |
 | 62  | Cafe & Wifi ☕📶                   | A Flask form-based web app for adding and listing cafes, stored in CSV, with Bootstrap layout. | Done   |
+| 63  | Book Library 📚                   | A Flask app using WTForms and SQLite to manage a personal book collection with editable ratings. | Done   |
+| 64  | Favorite Movies Catalog 🎬🍿       | A Flask + TMDB API project to search, add, review, and rank favorite movies using SQLAlchemy. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
