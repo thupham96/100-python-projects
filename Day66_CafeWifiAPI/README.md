@@ -35,7 +35,7 @@ http://127.0.0.1:5000/
 1. **Clone the repository or copy the files:**
 
    ```bash
-   git clone https://github.com/yourusername/100-python-projects.git
+   git clone https://github.com/thupham96/100-python-projects.git
    cd Day66_CafeWifiAPI
    ```
 
