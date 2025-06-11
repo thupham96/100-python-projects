@@ -157,6 +157,9 @@ And much, much more as the projects progress!
 | 62  | Cafe & Wifi ☕📶                   | A Flask form-based web app for adding and listing cafes, stored in CSV, with Bootstrap layout. | Done   |
 | 63  | Book Library 📚                   | A Flask app using WTForms and SQLite to manage a personal book collection with editable ratings. | Done   |
 | 64  | Favorite Movies Catalog 🎬🍿       | A Flask + TMDB API project to search, add, review, and rank favorite movies using SQLAlchemy. | Done   |
+| 65  | Cafe & Wifi ☕📶                     | A Flask RESTful API using SQLAlchemy to manage cafes and their amenities. Supports full CRUD.    | Done   |
+| 66  | Cafe & Wifi API 🔌☕                 | An enhanced RESTful API for cafes using Flask + SQLAlchemy. Supports random, filtered, and secure operations. | Done   |
+| 67  | Blog Post CMS 📝🖋️                  | A Flask blog platform with rich-text editing using CKEditor, SQLAlchemy models, and full CRUD.   | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
