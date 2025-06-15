@@ -161,6 +161,7 @@ And much, much more as the projects progress!
 | 66  | Cafe & Wifi API 🔌☕                 | An enhanced RESTful API for cafes using Flask + SQLAlchemy. Supports random, filtered, and secure operations. | Done   |
 | 67  | Blog Post CMS 📝🖋️                  | A Flask blog platform with rich-text editing using CKEditor, SQLAlchemy models, and full CRUD.   | Done   |
 | 68  | Flask Auth App 🔐👤                 | A user registration and login system with session protection, password hashing, and file access. | Done   |
+| 69  | Flask Blog CMS 💬🔐📝               | A Flask-based blog with admin-only post control, user auth, rich-text editing, and commenting.   | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
