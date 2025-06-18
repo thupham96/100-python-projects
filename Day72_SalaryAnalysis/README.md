@@ -16,7 +16,7 @@ This project investigates how undergraduate majors impact salary outcomes across
 ```bash
 git clone https://github.com/yourusername/100-python-projects.git
 cd Day72_SalaryAnalysis
-jupyter notebook Day_72_fully_commented.ipynb
+jupyter salary_analysis.ipynb
 ```
 
 Or open it in **Google Colab**.
