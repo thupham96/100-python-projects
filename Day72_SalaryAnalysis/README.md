@@ -90,8 +90,6 @@ Insight: STEM majors dominate the high end; education and social sciences appear
 
 ### 6. Mid-Career Median Salary (Bar Chart)
 
-![Bar chart showing top 10 mid-career salaries](#)
-
 Top Earners by Mid-Career Median:
 
 * Chemical Engineering
