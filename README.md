@@ -163,6 +163,7 @@ And much, much more as the projects progress!
 | 68  | Flask Auth App                  | A user registration and login system with session protection, password hashing, and file access. | Done   |
 | 69  | Flask Blog CMS                | A Flask-based blog with admin-only post control, user auth, rich-text editing, and commenting.   | Done   |
 | 72  | College Major Salary Analysis  | Data analysis of college majors vs. salaries, with growth, risk, and group-based comparison. | Done   |
+| 73  | Stack Overflow Tag Trends Analysis | Time-series analysis of programming tag popularity using real Stack Overflow data from 2008–2020. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
