@@ -164,6 +164,7 @@ And much, much more as the projects progress!
 | 69  | Flask Blog CMS                | A Flask-based blog with admin-only post control, user auth, rich-text editing, and commenting.   | Done   |
 | 72  | College Major Salary Analysis  | Data analysis of college majors vs. salaries, with growth, risk, and group-based comparison. | Done   |
 | 73  | Stack Overflow Tag Trends Analysis | Time-series analysis of programming tag popularity using real Stack Overflow data from 2008–2020. | Done   |
+| 74  | LEGO Data Analysis                 | Analysis of LEGO sets, themes, and colors using Pandas and Matplotlib.                         | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
