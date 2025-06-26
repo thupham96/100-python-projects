@@ -108,4 +108,4 @@ name: str
 
 ---
 
-📚 Build your own fully-functional blog with admin access and rich user interaction using Flask!
+Build your own fully-functional blog with admin access and rich user interaction using Flask!
