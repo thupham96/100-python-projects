@@ -1,23 +1,23 @@
-# Day 69: 📝 Flask Blog CMS – Admin-Only Editor with Comments 💬🔐
+# Day 69: Flask Blog CMS – Admin-Only Editor with Comments
 
 A Flask-based blog platform with full CRUD functionality, rich-text editing, user authentication, admin-only post management, and a comment system. Built using **Flask**, **Flask-Login**, **SQLAlchemy**, **CKEditor**, and **Gravatar** integration.
 
 ---
 
-## 📖 Overview
+## Overview
 
 **Flask Blog CMS** enables users to:
 
-* 👥 Register and log in securely
-* 🧑‍💻 Create, edit, and delete posts (admin-only)
-* ✍️ Write rich-text blog posts with images
-* 💬 Comment on posts after logging in
-* 📸 View Gravatar profile images beside comments
-* ⚙️ Manage user sessions and protect admin routes
+* Register and log in securely
+* Create, edit, and delete posts (admin-only)
+* Write rich-text blog posts with images
+* Comment on posts after logging in
+* View Gravatar profile images beside comments
+* Manage user sessions and protect admin routes
 
 ---
 
-## 🚀 Run the App
+## Run the App
 
 ```bash
 python main.py
@@ -31,7 +31,7 @@ http://127.0.0.1:5002/
 
 ---
 
-## 📁 Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository and navigate:**
 
@@ -60,7 +60,7 @@ http://127.0.0.1:5002/
 
 ---
 
-## 🔐 Key Routes
+## Key Routes
 
 | Route                | Methods  | Description                                |
 | -------------------- | -------- | ------------------------------------------ |
@@ -76,7 +76,7 @@ http://127.0.0.1:5002/
 
 ---
 
-## 👤 User Model
+## User Model
 
 ```python
 id: int
@@ -87,18 +87,18 @@ name: str
 
 ---
 
-## 🧱 Features
+## Features
 
-* 🔑 Secure user auth with `Flask-Login` and `werkzeug.security`
-* ✍️ CKEditor for blog and comment input
-* 🧑‍⚖️ Admin-only control over post creation and editing
-* 💬 Commenting system with email-based Gravatars
-* 💡 Flash messaging for login and registration feedback
-* 📅 Post metadata like title, subtitle, image, author, and date
+* Secure user auth with `Flask-Login` and `werkzeug.security`
+* CKEditor for blog and comment input
+* Admin-only control over post creation and editing
+* Commenting system with email-based Gravatars
+* Flash messaging for login and registration feedback
+* Post metadata like title, subtitle, image, author, and date
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 * Implementing user and session management with Flask-Login
 * Using decorators to restrict admin-only routes
