@@ -165,6 +165,9 @@ And much, much more as the projects progress!
 | 72  | College Major Salary Analysis  | Data analysis of college majors vs. salaries, with growth, risk, and group-based comparison. | Done   |
 | 73  | Stack Overflow Tag Trends Analysis | Time-series analysis of programming tag popularity using real Stack Overflow data from 2008–2020. | Done   |
 | 74  | LEGO Data Analysis                 | Analysis of LEGO sets, themes, and colors using Pandas and Matplotlib.                         | Done   |
+| 75   | Google Trends & Data Visualization    | Exploration of Google search trends and their relationship to stock prices, unemployment, and cryptocurrency. | Done   |
+| 76   | Google Play Store App Analytics       | Analyzes the Android app market by cleaning, processing, and visualizing data to uncover trends in ratings, categories, pricing, and popularity. | Done   |
+| 77   | Computation with NumPy and N-Dimensional Arrays | Explores numerical computations using NumPy, focusing on N-dimensional arrays, mathematical operations, broadcasting, and aggregation. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
