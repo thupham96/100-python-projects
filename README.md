@@ -169,6 +169,7 @@ And much, much more as the projects progress!
 | 76   | Google Play Store App Analytics       | Analyzes the Android app market by cleaning, processing, and visualizing data to uncover trends in ratings, categories, pricing, and popularity. | Done   |
 | 77   | Computation with NumPy and N-Dimensional Arrays | Explores numerical computations using NumPy, focusing on N-dimensional arrays, mathematical operations, broadcasting, and aggregation. | Done   |
 | 78   | Seaborn & Linear Regression Analysis | Analyzes the relationship between movie budgets and box office revenue using Seaborn for visualization and scikit-learn for linear regression. | Done   |
+| 79   | Nobel Prize Data Analysis             | Analyzes trends in Nobel Prize awards, laureate demographics, and country-level patterns using Pandas, Seaborn, and Plotly. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
