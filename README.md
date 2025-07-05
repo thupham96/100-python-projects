@@ -171,6 +171,7 @@ And much, much more as the projects progress!
 | 78   | Seaborn & Linear Regression Analysis | Analyzes the relationship between movie budgets and box office revenue using Seaborn for visualization and scikit-learn for linear regression. | Done   |
 | 79   | Nobel Prize Data Analysis             | Analyzes trends in Nobel Prize awards, laureate demographics, and country-level patterns using Pandas, Seaborn, and Plotly. | Done   |
 | 80   | Dr. Semmelweis Handwashing Discovery    | Analyzes historical maternal mortality data to show the life-saving impact of handwashing, using Pandas, Matplotlib, and Seaborn. | Done   |
+| 81   | Multivariable Regression and Valuation Model | Builds a multivariable regression model to predict Boston house prices based on features like rooms, distance to employment, and socioeconomic factors. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
