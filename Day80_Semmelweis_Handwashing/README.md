@@ -1,4 +1,4 @@
-# Day 80: Dr. Semmelweis and the Discovery of Handwashing 🧼🩺
+# Day 80: Dr. Semmelweis and the Discovery of Handwashing
 
 This project analyzes historical data from Dr. Ignaz Semmelweis's research on handwashing and its impact on maternal mortality in 19th-century hospitals. Using data visualization and statistical techniques, the notebook explores the trends that led to the discovery of hand hygiene as a life-saving practice.
 
