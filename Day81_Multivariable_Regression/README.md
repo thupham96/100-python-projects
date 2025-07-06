@@ -1,4 +1,4 @@
-# Day 81: 🏠 Multivariable Regression and Valuation Model
+# Day 81: Multivariable Regression and Valuation Model
 
 This project builds a multivariable linear regression model to estimate residential property values in Boston using 1970s housing data. It demonstrates how statistical modeling and data transformation can help predict house prices based on characteristics like number of rooms, distance to employment centers, and socioeconomic factors.
 
