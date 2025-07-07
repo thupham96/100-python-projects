@@ -1,4 +1,4 @@
-# Day 84: 🎮 Tic-Tac-Toe – Console Game in Python
+# Day 84: Tic-Tac-Toe – Console Game in Python
 
 This project implements a classic **Tic-Tac-Toe** game that runs in the terminal. Two players take turns marking spaces in a 3×3 grid. The first to align three symbols horizontally, vertically, or diagonally wins. If all spaces are filled without a winner, the game ends in a tie.
 
