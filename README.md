@@ -172,6 +172,11 @@ And much, much more as the projects progress!
 | 79   | Nobel Prize Data Analysis             | Analyzes trends in Nobel Prize awards, laureate demographics, and country-level patterns using Pandas, Seaborn, and Plotly. | Done   |
 | 80   | Dr. Semmelweis Handwashing Discovery    | Analyzes historical maternal mortality data to show the life-saving impact of handwashing, using Pandas, Matplotlib, and Seaborn. | Done   |
 | 81   | Multivariable Regression and Valuation Model | Builds a multivariable regression model to predict Boston house prices based on features like rooms, distance to employment, and socioeconomic factors. | Done   |
+| 82   | Morse Code Translator                            | A Python console app that encodes and decodes messages using international Morse code, with support for unknown character handling and interactive use.     | Done   |
+| 84   | Tic-Tac-Toe – Console Game in Python             | A two-player terminal-based game with board display, input validation, win/tie detection, and replay option using standard Python I/O.                      | Done   |
+| 85   | Image Watermarking Tool – Python GUI with Tkinter| A GUI app that lets users add customizable text or logo watermarks to images. Supports positioning, color, opacity, tiling, and spacing.                    | Done   |
+| 86   | Typing Speed Test – Python GUI with Tkinter | An interactive 60-second typing speed test with live WPM, accuracy tracking, and color-coded feedback using Tkinter. Paste and delete are disabled for integrity. | Done   |
+| 87   | Breakout Game – Python Turtle Arcade Classic | A classic brick-breaking game built with Python Turtle. Includes paddle control, ball dynamics, score tracking, win/lose conditions, and a restart button. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
