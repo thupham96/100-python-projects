@@ -34,9 +34,7 @@ This project is a modern recreation of the **Breakout** arcade game using **Pyth
 
 ## How to Run
 
-1. Save the code to a file named `main.py`.
-
-2. Clone the repository or copy the code:
+1. Clone the repository or copy the code:
 
    ```bash
    git clone https://github.com/thupham96/100-python-projects.git
