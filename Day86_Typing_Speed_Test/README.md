@@ -32,17 +32,17 @@ This project is an interactive **Typing Speed Test** application built using **T
 
 ## How to Run
 
-1. Ensure your `text_collection.txt` file is in the same directory as `main.py`. It should contain multiple entries separated by:
-
-   ```
-   \n\n---\n\n
-   ```
-
-2. Clone the repository or copy the code:
+1. Clone the repository or copy the code:
 
    ```bash
    git clone https://github.com/thupham96/100-python-projects.git
    cd Day86_Typing_Speed_Test
+   ```
+
+2. Ensure your `text_collection.txt` file is in the same directory as `main.py`. It should contain multiple entries separated by:
+
+   ```
+   \n\n---\n\n
    ```
 
 3. Run the application:
