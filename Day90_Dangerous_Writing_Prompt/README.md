@@ -27,20 +27,14 @@ This project is a focused writing tool inspired by the "dangerous writing" conce
 
 ## How to Run
 
-1. Save the files:
-
-   * `main.py`
-   * `dangerous_writer.py`
-   * `prompts.txt`
-
-2. Clone the repository or copy the code:
+1. Clone the repository or copy the code:
 
    ```bash
    git clone https://github.com/thupham96/100-python-projects.git
    cd Day90_Dangerous_Writing_Prompt
    ```
 
-3. Run the application:
+2. Run the application:
 
    ```bash
    python main.py
