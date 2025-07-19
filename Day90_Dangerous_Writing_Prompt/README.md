@@ -1,4 +1,4 @@
-# Day 90: 📝 Dangerous Writing Prompt – Idle Challenge Timer App ⏳🔥
+# Day 90: Dangerous Writing Prompt – Idle Challenge Timer App 
 
 This project is a focused writing tool inspired by the "dangerous writing" concept: if you stop typing for too long, your words disappear. Built using **Python** and **Tkinter**, it pushes writers to stay in flow by combining a countdown timer with an inactivity limit.
 
