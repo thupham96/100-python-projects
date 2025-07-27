@@ -48,7 +48,7 @@ A Python recreation of the iconic Chrome offline **Dinosaur Game** using the **P
 
 ---
 
-## 🕹️ How to Play
+## How to Play
 
 * The dinosaur will **automatically jump** when a cactus is close.
 * Your job is to **observe and enjoy** — it's a hands-free run!
@@ -57,7 +57,7 @@ A Python recreation of the iconic Chrome offline **Dinosaur Game** using the **P
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 * Using **Pygame** to manage sprite graphics, collision detection, and event loops
 * Implementing **auto-play logic** to simulate AI reflexes
