@@ -179,6 +179,7 @@ And much, much more as the projects progress!
 | 87   | Breakout Game – Python Turtle Arcade Classic | A classic brick-breaking game built with Python Turtle. Includes paddle control, ball dynamics, score tracking, win/lose conditions, and a restart button. | Done   |
 | 90   | Dangerous Writing Prompt – Idle Timer Challenge with Tkinter | A focus-boosting writing app where stopping for more than 5 seconds deletes your text. Includes random prompts, countdown timer, idle checks, and restart functionality in a clean Tkinter interface. | Done   |
 | 91   | PDF to Speech Converter – Google Cloud TTS App | A Python tool that extracts text from a PDF, splits it into safe byte-size chunks, and uses Google Cloud Text-to-Speech to generate high-quality MP3 audio files. Ideal for turning books into audio. | Done   |
+| 94   | Dinosaur Game – Auto-Jump Chrome Clone with Pygame           | A Python recreation of the Chrome offline dinosaur game with auto-jump AI, cactus obstacles, real-time scoring, and smooth Pygame animations. | Done   |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
