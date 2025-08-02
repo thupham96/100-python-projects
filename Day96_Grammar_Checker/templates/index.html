@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grammar Checker</title>
+</head>
+<body>
+    <h1>Grammar Checker</h1>
+    <form method="post" action="/grammar">
+        <textarea name="text" rows="6" cols="60" placeholder="Enter your text here..."></textarea><br>
+        <button type="submit">Check Grammar</button>
+    </form>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
