@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Corrections</title></head>
+<body>
+    <h2>Original Text:</h2>
+    <p>{{ original }}</p>
+
+    <h2>Suggestions:</h2>
+    {% for s in suggestions %}
+        <p><strong>{{ s.message }}</strong> — Suggestions: {{ s.suggestions }}</p>
+    {% endfor %}
+
+    <h2>Corrected Text:</h2>
+    <p>{{ corrected_text }}</p>
+
+    <a href="/">Try Again</a>
+</body>
+</html>
