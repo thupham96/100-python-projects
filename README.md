@@ -182,6 +182,7 @@ And much, much more as the projects progress!
 | 94   | Dinosaur Game – Auto-Jump Chrome Clone with Pygame           | A Python recreation of the Chrome offline dinosaur game with auto-jump AI, cactus obstacles, real-time scoring, and smooth Pygame animations. | Done   |
 | 95   | Alien Invasion – Pygame Shooter                                   | A classic arcade-style shooter game where you control a spaceship to blast waves of descending aliens while dodging enemy fire. Built with Pygame and object-oriented design. | Done   |
 | 96   | Grammar Checker – Flask + LanguageTool API                        | A web-based grammar checker app using Flask and the LanguageTool API to detect grammar issues, offer suggestions, and show corrected text. Includes form handling, API integration, and dynamic rendering. | Done   |
+| 98 | Wordle Auto-Player — Selenium + Python | Automates Wordle on wordlegame.org using Selenium. Loads a 5-letter dictionary, scores guesses by letter frequency, reads tile feedback (green/yellow/black), and filters candidates until solved. | Done |
 | ... | ...                                | ...                                                                                        | ...    |
 
 Progress updates will be committed daily.
