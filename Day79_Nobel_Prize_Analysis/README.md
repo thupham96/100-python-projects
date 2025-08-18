@@ -1,4 +1,4 @@
-# Day 79: Nobel Prize Data Analysis 🌍🏅
+# Day 79: Nobel Prize Data Analysis
 
 This project analyzes the history and trends of Nobel Prize awards using data visualization and statistical tools. The notebook explores laureate demographics, prize categories, and country-level trends, providing insights into over a century of Nobel history.
 
