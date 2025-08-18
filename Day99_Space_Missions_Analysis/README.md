@@ -64,5 +64,3 @@ This project explores the history of space missions from the dawn of the Space R
 * Combining static (Seaborn/Matplotlib) and interactive (Plotly) visualizations.
 * Analyzing categorical and temporal trends in large datasets.
 * Applying storytelling techniques to data-driven exploration.
-
-Do you want me to also format this README in the **same style as your Day 79 Nobel Prize Analysis template** (with the same emoji + section structure), so all your project READMEs look consistent?
