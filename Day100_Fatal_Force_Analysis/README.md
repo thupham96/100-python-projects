@@ -10,10 +10,6 @@ This capstone project analyzes U.S. police killings using the Washington Post **
 
   * Normalize city names (e.g., removing “city/town/cdp”, trimming spaces) and map race codes.
   * Handle missing/unknown values and ensure consistent types for time-series analysis.
-* **Demographic Context (Optional)**
-
-  * Join with `share_race_city` to compare incident counts with local population shares.
-  * Re-normalize demographic shares after city consolidation (so grouped cities still sum to 100%).
 * **Temporal Trends**
 
   * Annual and monthly incident counts; rolling averages for smoother trends.
