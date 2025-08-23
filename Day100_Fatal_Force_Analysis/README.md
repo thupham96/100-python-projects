@@ -1,142 +1,89 @@
-# Day 100: **Fatal Force — U.S. Police Killings Analysis (2015–Present)**
+# Day 100: Fatal Force – Police Shootings Analysis in the U.S.
 
-This capstone project analyzes U.S. police killings using the Washington Post **Fatal Force** dataset. The notebook explores trends over time, geography (state & city), demographics, and incident characteristics such as threat level, fleeing status, and body-camera usage.
+This project analyzes fatal police shootings in the United States from **2015 onward**, using data compiled by *The Washington Post*. The dataset includes demographics (age, race, gender), mental illness indicators, and situational details of each fatal encounter, along with socioeconomic data from the U.S. Census (poverty rate, income, education, racial composition).
+
+The project aims to uncover **patterns, disparities, and geographic trends** in police killings, highlighting systemic issues and correlations with broader social factors.
 
 ---
 
 ## Project Features
 
-* **Data Cleaning & Standardization**
-
-  * Normalize city names (e.g., removing “city/town/cdp”, trimming spaces) and map race codes.
-  * Handle missing/unknown values and ensure consistent types for time-series analysis.
-* **Temporal Trends**
-
-  * Annual and monthly incident counts; rolling averages for smoother trends.
-* **Geographic Patterns**
-
-  * Top states and cities by incident counts; choropleth by state.
-* **Incident Characteristics**
-
-  * Distributions by `manner_of_death`, `armed`, `threat_level`, `flee`, `signs_of_mental_illness`, `body_camera`.
-* **Interactive Visualizations**
-
-  * Plotly charts with hover tooltips and filters for exploratory analysis.
-
----
-
-## Data Sources
-
-* **The Washington Post — Fatal Force** (police shootings database, 2015–present)
-  Typical columns used: `date`, `state`, `city`, `age`, `gender`, `race`, `manner_of_death`, `armed`, `threat_level`, `flee`, `signs_of_mental_illness`, `body_camera`.
-
-> ⚠️ Ethics & Limitations: These data represent deaths, not all police–civilian encounters. Reporting practices, definitions, and missingness can bias results. Treat insights as descriptive, not causal.
+* **Data Exploration & Cleaning** — checked for missing values, duplicates, and standardized data across five datasets.
+* **Demographic Analysis** — studied distribution of victims by age, race, and gender.
+* **Mental Health Impact** — assessed frequency of victims with reported mental illness.
+* **Geographic Insights** — visualized top cities and states with highest fatalities, including choropleth maps.
+* **Socioeconomic Correlation** — compared police killings with poverty, education, and income by state.
+* **Temporal Trends** — explored killings over time to identify spikes or long-term patterns.
+* **Interactive Visualizations** — created with **Plotly** for deep exploration.
 
 ---
 
 ## Technologies Used
 
-* **Python**, **Pandas**, **NumPy**
-* **Matplotlib & Seaborn** for static plots
-* **Plotly Express** for interactive charts
-* **Jupyter Notebook**
-* *(Optional)* **iso3166** for country/state code utilities (if needed)
+* **Python**
+* **Pandas & NumPy** — data wrangling and preprocessing
+* **Matplotlib & Seaborn** — static visualizations
+* **Plotly Express** — interactive charts & choropleths
+* **Jupyter Notebook** — analysis and reporting environment
 
 ---
 
 ## How to Run
 
-1. **Clone & Enter Folder**
+1. Clone the repository and navigate to the project folder:
 
    ```bash
    git clone https://github.com/thupham96/100-python-projects.git
    cd Day100_Fatal_Force_Analysis
    ```
 
-2. **Install Dependencies**
+2. Install dependencies:
 
    ```bash
-   pip install pandas numpy matplotlib seaborn plotly iso3166
+   pip install pandas numpy matplotlib seaborn plotly
    ```
 
-3. **Add Data**
-
-   * Place the Fatal Force CSV in `data/fatal-police-shootings-data.csv`.
-   * (Optional) Place FiveThirtyEight’s file in `data/share_race_city.csv`.
-
-4. **Open the Notebook**
+3. Open the notebook:
 
    ```bash
-   jupyter notebook Fatal_Force_Analysis.ipynb
+   jupyter notebook Fatal_Force.ipynb
    ```
 
 ---
 
-## Key Visuals & Analyses
+## Key Insights
 
-* **Incidents Over Time**: yearly & monthly trends with rolling averages.
-* **By State**: bar chart of counts; Plotly choropleth map.
-* **Top Cities**: top-N cities after name standardization (see “City Cleaning” below).
-* **Demographics**: stacked bars of incidents by race & gender (with “Unknown” shown).
-* **Incident Details**: distributions for `armed`, `threat_level`, `flee`, `signs_of_mental_illness`, and `body_camera`.
+* **Victim Demographics**
 
----
+  * Majority are young to middle-aged adults (20s–30s).
+  * Black and Native American individuals are disproportionately represented relative to their share of the U.S. population.
+  * Around **25% of victims** show signs of mental illness — far above the national prevalence rate (\~5–6%).
 
-## City Cleaning & Share Re-Normalization (Tip)
+* **Geographic Trends**
 
-When consolidating city names (e.g., “Chicago city”, “Chicago town”, “Chicago CDP” → “chicago”), demographic **shares** from `share_race_city` can sum to more than 100% if you simply merge rows. Re-normalize after grouping:
+  * **Los Angeles, Phoenix, Houston, and Chicago** top the list of cities with the most killings.
+  * Large states like **California, Texas, and Florida** account for the highest totals.
+  * Southern states with **higher poverty rates** also report elevated incidents.
 
-```python
-# Standardize city names in both dataframes
-def clean_city(s):
-    return (s.str.lower()
-             .str.replace(r'\s*(city|town|cdp)\b', '', regex=True)
-             .str.replace(' ', '', regex=False))
+* **Socioeconomic Links**
 
-df_fatal['cleaned_city'] = clean_city(df_fatal['city'])
-df_share['cleaned_city'] = clean_city(df_share['City'])
+  * States with **high poverty and low education rates** tend to have more police killings.
+  * The overlap suggests systemic socioeconomic factors influence fatal encounters.
 
-# Aggregate share rows by cleaned city and state, then renormalize to 1.0
-share_cols = [
-    'share_white','share_black','share_hispanic',
-    'share_asian','share_native_american','share_other'
-]
+* **Temporal Patterns**
 
-agg = (df_share
-       .groupby(['state', 'cleaned_city'], as_index=False)[share_cols]
-       .mean())
-
-agg[share_cols] = agg[share_cols].div(agg[share_cols].sum(axis=1), axis=0)
-```
-
-This ensures each city’s demographic shares still total 100% after consolidation.
+  * Fatal police shootings remain consistently high year to year since 2015, with no strong downward trend.
 
 ---
 
 ## What I Learned
 
-* Robust **data cleaning** across heterogeneous sources (e.g., reconciling city labels).
-* Managing **categorical & temporal** analyses with missing/unknown values.
-* Designing **honest visualizations** (showing “Unknown” explicitly, adding uncertainty notes).
-* Building **interactive EDA** workflows with Plotly for deeper, faster exploration.
-* Communicating **limitations & ethics** clearly in a sensitive analytical domain.
+* Cleaning and joining multiple datasets with different encodings and structures.
+* Using both static (Matplotlib/Seaborn) and interactive (Plotly) visualizations for storytelling.
+* Analyzing demographic and socioeconomic disparities with real-world implications.
+* Interpreting data with sensitivity, considering **context, systemic bias, and limitations** of reporting.
 
 ---
 
-## Next Steps
-
-* Expand geography to **county/metro** rollups and normalize by population rates.
-* Add **significance tests** or **Bayesian models** for over/under-representation.
-* Incorporate **policy/context features** (e.g., state laws, body-cam mandates) for richer analysis.
-* Build a small **Dash** app to let users filter by state, city, and year interactively.
-
----
-
-## Acknowledgments
-
-* Data journalism by **The Washington Post** (Fatal Force).
-* Thanks to the broader open-data community for maintaining and discussing these datasets.
-
----
-
-*Milestone unlocked: Day 100! 🎉 Thanks for following along this 100-day journey.*
+🎉 **Day 100 marks the completion of the 100 Python Projects challenge!**
+This final project reflects the integration of **data wrangling, visualization, and storytelling** to highlight important societal issues through code.
