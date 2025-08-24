@@ -3,8 +3,6 @@
 Welcome to the **PyPassword Generator!** 🎲✨
 This interactive Python script helps you create strong, secure, and randomized passwords by combining **letters, numbers, and symbols**. It ensures flexibility while enforcing password strength with length validation.
 
-[Click here to try the demo](https://trinket.io/python3/326153ce526a?outputOnly=true)
-
 ---
 
 ## 🚀 How It Works
