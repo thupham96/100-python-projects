@@ -1,11 +1,11 @@
-# Day 5: 🔐 PyPassword Generator
+# Day 5: PyPassword Generator
 
-Welcome to the **PyPassword Generator!** 🎲✨
+Welcome to the **PyPassword Generator!**
 This interactive Python script helps you create strong, secure, and randomized passwords by combining **letters, numbers, and symbols**. It ensures flexibility while enforcing password strength with length validation.
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 ### Step-by-Step Guide:
 
@@ -27,7 +27,7 @@ This interactive Python script helps you create strong, secure, and randomized p
 
 ---
 
-### 💻 Example Run
+### Example Run
 
 ```plaintext
 Welcome to the PyPassword Generator!
@@ -43,7 +43,7 @@ Your password is: zE3!a6q%1K
 
 ---
 
-## ✨ Features
+## Features
 
 * **Customizable** — Choose the number of letters, symbols, and numbers.
 * **Validation** — Enforces secure length between 6–50 characters.
