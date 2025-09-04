@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Home • Cafe Finder{% endblock %}
+{% block content %}
+  <div class="text-center py-5">
+    <h1 class="display-5 fw-bold">Welcome to Cafe Finder</h1>
+    <p class="lead">Find laptop‑friendly cafés with Wi‑Fi, power, and good coffee.</p>
+    <a href="{{ url_for('cafes_ui') }}" class="btn btn-primary btn-lg">Browse Cafés</a>
+  </div>
+{% endblock %}
