@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}{{ cafe.name }} • Cafe Finder{% endblock %}
+{% block content %}
+  <div class="row g-4">
+    <div class="col-md-6">
+      <img src="{{ cafe.img_url }}" class="img-fluid rounded shadow-sm" alt="{{ cafe.name }}">
+    </div>
+    <div class="col-md-6">
+      <h2 class="mb-1">{{ cafe.name }}</h2>
+      <p class="text-muted">{{ cafe.location }}</p>
+      <p>Seats: {{ cafe.seats }}</p>
+      <p>
+        {% if cafe.has_wifi %}<span class="badge text-bg-success">Wi‑Fi</span>{% endif %}
+        {% if cafe.has_sockets %}<span class="badge text-bg-success">Power</span>{% endif %}
+        {% if cafe.has_toilet %}<span class="badge text-bg-success">Toilet</span>{% endif %}
+        {% if cafe.can_take_calls %}<span class="badge text-bg-success">Calls OK</span>{% endif %}
+      </p>
+      <p>Coffee price: {{ cafe.coffee_price or "—" }}</p>
+      <div class="d-flex gap-2 mb-4">
+        <a class="btn btn-primary" href="{{ cafe.map_url }}" target="_blank" rel="noopener">Open in Maps</a>
+        <a class="btn btn-outline-danger" href="{{ url_for('delete_cafe_ui', id=cafe.id) }}">Delete</a>
+      </div>
+
+      <h5>Update Coffee Price</h5>
+      <form method="post" action="{{ url_for('update_price_ui', id=cafe.id) }}" class="row g-2">
+        <div class="col-auto">
+          <input class="form-control" type="text" name="new_price" placeholder="$3.50" required>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-outline-secondary">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

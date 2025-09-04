@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Delete Cafe • Cafe Finder{% endblock %}
+{% block content %}
+  <h2 class="mb-3 text-danger">Delete "{{ cafe.name }}"</h2>
+  <p>This will permanently remove the cafe from the database.</p>
+  <form method="post" class="row g-3">
+    <div class="col-md-4">
+      <label class="form-label">Admin Key</label>
+      <input type="password" class="form-control" name="admin_key" placeholder="Enter admin key" required>
+    </div>
+    <div class="col-12 d-flex gap-2">
+      <button class="btn btn-danger">Delete</button>
+      <a class="btn btn-outline-secondary" href="{{ url_for('cafes_ui') }}">Cancel</a>
+    </div>
+  </form>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Add Cafe • Cafe Finder{% endblock %}
+{% block content %}
+  <h2 class="mb-3">Add a New Cafe</h2>
+  <form method="post" class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control" name="name" required>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Location (City/Area)</label>
+      <input type="text" class="form-control" name="location" required>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Map URL</label>
+      <input type="url" class="form-control" name="map_url" required>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Image URL</label>
+      <input type="url" class="form-control" name="img_url" required>
+    </div>
+    <div class="col-md-4">
+      <label class="form-label">Seats (e.g., 10+)</label>
+      <input type="text" class="form-control" name="seats" required>
+    </div>
+    <div class="col-md-8 d-flex align-items-center gap-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="wifi" name="has_wifi">
+        <label class="form-check-label" for="wifi">Wi‑Fi</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="sockets" name="has_sockets">
+        <label class="form-check-label" for="sockets">Power</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="toilet" name="has_toilet">
+        <label class="form-check-label" for="toilet">Toilet</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="calls" name="can_take_calls">
+        <label class="form-check-label" for="calls">Calls OK</label>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label class="form-label">Coffee Price (optional)</label>
+      <input type="text" class="form-control" name="coffee_price" placeholder="$3.50">
+    </div>
+    <div class="col-12 d-grid d-md-inline">
+      <button class="btn btn-primary">Add Cafe</button>
+    </div>
+  </form>
+{% endblock %}

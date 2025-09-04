@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Cafés • Cafe Finder{% endblock %}
+{% block content %}
+  <form method="get" class="row g-3 align-items-end mb-4">
+    <div class="col-md-4">
+      <label class="form-label">Location</label>
+      <input type="text" class="form-control" name="loc" placeholder="e.g. London" value="{{ filters.get('loc','') }}">
+    </div>
+    <div class="col-md-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="wifi" name="wifi" {% if filters.get('wifi') %}checked{% endif %}>
+        <label class="form-check-label" for="wifi">Wi‑Fi</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="sockets" name="sockets" {% if filters.get('sockets') %}checked{% endif %}>
+        <label class="form-check-label" for="sockets">Power</label>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="toilet" name="toilet" {% if filters.get('toilet') %}checked{% endif %}>
+        <label class="form-check-label" for="toilet">Toilet</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="calls" name="calls" {% if filters.get('calls') %}checked{% endif %}>
+        <label class="form-check-label" for="calls">Calls OK</label>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <label class="form-label">Min Seats</label>
+      <input type="number" class="form-control" name="min_seats" min="0" value="{{ filters.get('min_seats','') }}">
+    </div>
+    <div class="col-md-2 d-grid">
+      <button class="btn btn-primary">Apply Filters</button>
+    </div>
+  </form>
+
+  <p class="text-muted mb-3">{{ cafes|length }} result{{ cafes|length != 1 and 's' or '' }} found.</p>
+
+  <div class="row g-4">
+    {% for c in cafes %}
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="{{ c.img_url }}" class="card-img-top" alt="{{ c.name }}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ c.name }}</h5>
+            <p class="card-text small text-muted mb-2">{{ c.location }} • Seats: {{ c.seats }}</p>
+            <p class="amenities small mb-3">
+              {% if c.has_wifi %}<span class="badge text-bg-success">Wi‑Fi</span>{% endif %}
+              {% if c.has_sockets %}<span class="badge text-bg-success">Power</span>{% endif %}
+              {% if c.has_toilet %}<span class="badge text-bg-success">Toilet</span>{% endif %}
+              {% if c.can_take_calls %}<span class="badge text-bg-success">Calls OK</span>{% endif %}
+            </p>
+            <div class="mt-auto d-flex gap-2">
+              <a class="btn btn-outline-primary btn-sm" href="{{ url_for('cafe_detail_ui', id=c.id) }}">View</a>
+              <a class="btn btn-outline-secondary btn-sm" href="{{ c.map_url }}" target="_blank" rel="noopener">Map</a>
+              <a class="btn btn-outline-danger btn-sm" href="{{ url_for('delete_cafe_ui', id=c.id) }}">Delete</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
