@@ -1,0 +1,4 @@
+.task-title.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
