@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Edit Task{% endblock %}
+{% block content %}
+
+<div class="row justify-content-center">
+  <div class="col-lg-6">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title mb-3">Edit task</h5>
+        <form action="{{ url_for('update_task', task_id=task.id) }}" method="post" class="d-flex gap-2">
+          <input
+            name="title"
+            type="text"
+            class="form-control"
+            value="{{ task.title }}"
+            maxlength="160"
+            required
+            autofocus
+          />
+          <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">Cancel</a>
+          <button class="btn btn-primary" type="submit">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

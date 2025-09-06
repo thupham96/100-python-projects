@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}To-Do List{% endblock %}
+{% block content %}
+
+<div class="row justify-content-center">
+  <div class="col-lg-7">
+
+    <form action="{{ url_for('add_task') }}" method="post" class="mb-4">
+      <div class="input-group">
+        <input
+          name="title"
+          type="text"
+          class="form-control"
+          placeholder="Add a new task…"
+          maxlength="160"
+          required
+        />
+        <button class="btn btn-primary" type="submit">Add</button>
+      </div>
+    </form>
+
+    {% if tasks %}
+      <ul class="list-group shadow-sm">
+        {% for task in tasks %}
+          <li class="list-group-item d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center gap-3">
+              <form action="{{ url_for('toggle_task', task_id=task.id) }}" method="post" class="m-0">
+                <button class="btn btn-outline-secondary btn-sm" title="Toggle done" type="submit">
+                  {% if task.done %}✓{% else %}&nbsp;{% endif %}
+                </button>
+              </form>
+
+              <span class="task-title {% if task.done %}done{% endif %}">
+                {{ task.title }}
+              </span>
+            </div>
+
+            <div class="d-flex align-items-center gap-2">
+              <a href="{{ url_for('edit_task', task_id=task.id) }}" class="btn btn-outline-primary btn-sm">Edit</a>
+
+              <form action="{{ url_for('delete_task', task_id=task.id) }}" method="post" class="m-0"
+                    onsubmit="return confirm('Delete this task?');">
+                <button class="btn btn-outline-danger btn-sm" type="submit">Delete</button>
+              </form>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <div class="text-center text-muted py-5">
+        No tasks yet. Add your first one above!
+      </div>
+    {% endif %}
+
+  </div>
+</div>
+
+{% endblock %}
