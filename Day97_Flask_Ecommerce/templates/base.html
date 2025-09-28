@@ -1,0 +1,29 @@
+<!doctype html>
+<html lange="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{{ title or "My Store" }}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container">
+                <h1 class="logo"><a href="{{ url_for('list_products') }}">My Store</a></h1>
+                <nav>
+                    <a class="cart-link" href="{{ url_for('view_cart') }}">
+                        Cart: <span class="cart-badge">{{ cart_item_count }}</span>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            {% block content %}{% endblock %}
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; {{ 2025 }} My Store • Built with Flask</p>
+            </div>
+        </footer>
+    </body>
+</html>

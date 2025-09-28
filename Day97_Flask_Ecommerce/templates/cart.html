@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Your Cart</h2>
+    {% if not items %}
+        <p>Your cart is empty.</p>
+    {% else %}
+        <div class="cart-list">
+            {% for it in items %}
+                {% set p = it.product %}
+                <article class="cart-row">
+                    <div class="cart-thumb">
+                        {% if p.img_url %}
+                            <img src="{{ p.img_url }}" alt="{{ p.name }}">
+                        {% endif %}
+                    </div>
+                    <div class="cart-info">
+                        <h3 class="name">{{ p.name }}</h3>
+                        <p class="price">{{ p.price_cents|currency }}</p>
+                    </div>
+                    <form class="cart-qty" action="{{ url_for('cart_update', product_id=p.id) }}" method="post">
+                        <label for="qty-{{ p.id }}">Qty</label>
+                        <input id="qty-{{ p.id }}" name="qty" type="number" min="0" value="{{ it.qty }}">
+                        <button class="btn" type="submit">Update</button>
+                    </form>
+                    <div class="cart-line-total">{{ it.line_total|currency }}</div>
+                    <form action="{{ url_for('cart_remove', product_id=p.id) }}" method="post">
+                        <button class="btn" type="submit" aria-label="Remove {{ p.name }}">Remove</button>
+                    </form>
+                </article>
+            {% endfor %}
+        </div>
+        <div class="cart-summary">
+            <div class="total">Total: <strong>{{ total_cents|currency }}</strong></div>
+            <div class="actions">
+                <form action="{{url_for('cart_clear')}}" method="post">
+                    <button class="btn" type="submit">Clear cart</button>
+                </form>
+                <form>
+                    <button class="btn" type="submit">Check out</button>
+                </form>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

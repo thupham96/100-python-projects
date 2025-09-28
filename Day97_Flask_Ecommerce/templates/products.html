@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>All Products</h2>
+    <div class="grid">
+        {% if products %}
+            {% for p in products %}
+                <article class="card">
+                    <div class="thumb">
+                        {% if p.img_url %}
+                            <img src="{{ p.img_url }}" alt="{{ p.name }}">
+                        {% else %}
+                            <div class="placeholder">No Image</div>
+                        {% endif %}
+                    </div>
+                    <div class="card-body">
+                        <h3 class="name">{{ p.name }}</h3>
+                        <p class="price">{{ p.price_cents|currency }}</p>
+                        {% if p.description %}
+                            <p class="description">{{ p.description }}</p>
+                        {% endif %}
+                        <div class="card-meta">
+                            {% if p.stock > 0 %}
+                                <p class="in-stock">In Stock</p>
+                                <form action="{{ url_for('cart_add', product_id=p.id) }}" method="post">
+                                    <button
+                                            class="btn btn-accent"
+                                            type="submit"
+                                            aria-label="Add {{ p.name }} to cart">
+                                        Add to Cart
+                                    </button>
+                                </form>
+                            {% else %}
+                                <p class="out-of-stock">Out of Stock</p>
+                                <button class="btn btn-accent" type="button" disabled>Add to Cart</button>
+                            {% endif %}
+                        </div>
+                    </div>
+                </article>
+            {% endfor %}
+        {% else %}
+            <p>No Products Yet</p>
+        {% endif %}
+    </div>
+{% endblock %}
