@@ -110,5 +110,3 @@ A minimal yet fully functional e-commerce web application built with **Flask** a
 * Integrate payment gateway or dummy checkout flow
 * Real-time stock update and quantity validation
 * Use SQLite for persistent cart if login is added
-
-Let me know if you'd like me to export this as a file or include it in your GitHub project folder!
